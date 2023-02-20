@@ -1,0 +1,44 @@
+.box3 {
+    position: relative;
+}
+
+
+
+/*ボタンの位置調整CSS・フォント変更*/
+.botton3{
+    font-family: "コーポレート・ロゴ（ラウンド）";
+    position: absolute;
+    top: 80%;
+    left: 27%;
+}
+
+
+
+a.btn-tem{
+    padding: 0.5em;
+    margin: 10px 0;
+    display: block;
+    color: #fff !important;
+    background: #c5d0ca;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:30px;
+    border-radius: 3px;
+    text-align:center;
+    text-decoration:none !important;
+  }
+
+  a.btn-tem:hover {
+    background: #e1ff01;
+  }
+  @media screen and (min-width: 768px){
+    a.btn-tem{
+      padding: 0.5em 2em;
+      margin: 10px auto;
+      font-size:50px;
+      display:inline-block;
+    }
+    a.btn-tem:before {
+      margin: -3px 10px 0 0;
+    }
+  }

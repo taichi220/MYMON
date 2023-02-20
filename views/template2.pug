@@ -1,54 +1,79 @@
-<!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>ページ7</title>
-  <!-- CSS -->
-  <link href="MyMonster-2.css" rel="stylesheet">
-</head>
-
-<body>
- <div class="wrapper">
-  <div class="box7">
-   <div class="container">
-     <div class="main">
-      //<img src="mymonster.visual7.png">
-     </div>
-     <div class="example2">
-      <input type="radio" checked id="11" name="example3" ><label for="11">明るい</label>
-      <input type="radio" id="12" name="example3"><label for="12" >おおらか</label>
-      <input type="radio" id="13" name="example3"><label for="13" >協調性がある</label>
-      <input type="radio" id="14" name="example3"><label for="14" >謙虚</label>
-      <input type="radio" id="15" name="example3"><label for="15" >注意深い</label>
-      <input type="radio" id="16" name="example3"><label for="16" >好奇心旺盛</label>
-      <input type="radio" id="17" name="example3"><label for="17" >行動力がある</label>
-      <input type="radio" id="18" name="example3"><label for="18" >素直</label>
-      <input type="radio" id="19" name="example3"><label for="19" >正義感が強い</label>
-      <input type="radio" id="20" name="example3"><label for="20" >知的</label>
-      <input type="radio" id="21" name="example3"><label for="21" >几帳面</label>
-      <input type="radio" id="22" name="example3"><label for="22" >自分の意見をもっている</label>
-      <input type="radio" id="23" name="example3"><label for="23" >まじめ</label>
-      <input type="radio" id="24" name="example3"><label for="24" >面倒味がいい</label>
-      <input type="radio" id="25" name="example3"><label for="25" >やさしい</label>
-      <input type="radio" id="26" name="example3"><label for="26" >おもしろい</label>
-      <input type="radio" id="27" name="example3"><label for="27" >冷静</label>
-      <input type="radio" id="28" name="example3"><label for="28" >礼儀正しい</label>
-      <input type="radio" id="29" name="example3"><label for="29" >リーダーシップがある</label>
-      <input type="radio" id="30" name="example3"><label for="30" >気配りができる</label>
-      <input type="radio" id="31" name="example3"><label for="31" >聞き上手</label>
-      <form method="get" action="page.html">
-      <input type="hidden" name="a" value="val1">
-      <input type="hidden" name="b" value="val2">
-      <input type="hidden" name="c" value="val3">
-      </form>
+<!DOCTYPE html> 
+<html lang="ja"> 
+  <head>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="MyMonster-2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="MyMonster-2.js"></script>
+    .content
+      h1 あなたの性格だと思うものを3つ選んでください
+  </head> 
+  <body>
+    <div class="checkbox-container">
+<label for="1" class="label">
+  <input type="checkbox" name="myCheckbox" value="1" id="1" class="checkbox"> 面白い
+</label>
+<label for="2" class="label">
+  <input type="checkbox" name="myCheckbox" value="2" id="2" class="checkbox"> 知的
+</label>
+<label for="3" class="label">
+  <input type="checkbox" name="myCheckbox" value="3" id="3" class="checkbox"> 明るい
+</label>
+<label for="4" class="label">
+  <input type="checkbox" name="myCheckbox" value="4" id="4" class="checkbox"> 協調性がある
+</label>
+<label for="5" class="label">
+  <input type="checkbox" name="myCheckbox" value="5" id="5" class="checkbox"> 注意深い
+</label>
+<label for="6" class="label">
+  <input type="checkbox" name="myCheckbox" value="6" id="6" class="checkbox"> 几帳面
+</label>
+<label for="8" class="label">
+  <input type="checkbox" name="option8" value="8" id="8" class="checkbox"> おおらか
+</label>
+<label for="9" class="label">
+  <input type="checkbox" name="myCheckbox" value="9" id="9" class="checkbox"> 好奇心旺盛
+</label>
+<label for="10" class="label">
+  <input type="checkbox" name="myCheckbox" value="10" id="10" class="checkbox"> 冷静
+</label>
+<label for="11" class="label">
+  <input type="checkbox" name="myCheckbox" value="11" id="11" class="checkbox"> 礼儀正しい
+</label>
+<label for="12" class="label">
+  <input type="checkbox" name="myCheckbox" value="12" id="12" class="checkbox"> 行動力がある
+</label>
+<label for="13" class="label">
+  <input type="checkbox" name="myCheckbox" value="13" id="13" class="checkbox"> リーダーシップがある
+</label>
+<label for="14" class="label">
+  <input type="checkbox" name="myCheckbox" value="14" id="14" class="checkbox"> 面倒見がいい
+</label>
+<label for="15" class="label">
+  <input type="checkbox" name="myCheckbox" value="15" id="15" class="checkbox"> 聞き上手
+</label>
+<label for="16" class="label">
+  <input type="checkbox" name="myCheckbox" value="16" id="16" class="checkbox"> 素直
+</label>
+<label for="17" class="label">
+  <input type="checkbox" name="myCheckbox" value="17" id="17" class="checkbox"> 真面目
+</label>
+<label for="18" class="label">
+  <input type="checkbox" name="myCheckbox" value="18" id="18" class="checkbox"> 自分の意見を持っている
+</label>
+<label for="19" class="label">
+  <input type="checkbox" name="myCheckbox" value="19" id="19" class="checkbox"> 優しい
+</label>
+<label for="20" class="label">
+  <input type="checkbox" name="myCheckbox" value="20" id="20" class="checkbox"> 謙虚
+</label>
+<label for="21" class="label">
+  <input type="checkbox" name="myCheckbox" value="21" id="21" class="checkbox"> 正義感が強い
+</label>
+<div class="next-button-container">
+  //- <button id="next-button" onclick="location.href='/a'" class="next-button">つぎへ</button>
+  <button id="next-button" class="next-button">つぎへ</button>
+</div>
   </div>
-   </div>
-   
-   <div class="botton7">
-   <a href="/a" class="btn btn-tem"><span>つぎへ</span></a>
-   <!-- <button>ページ遷移ボタン</button> -->
-  </div>
-  </div>
- </div>
-</body>
+  </body>
 </html>

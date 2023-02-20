@@ -1,20 +1,33 @@
-.main{
+.main {
     position: relative;
-    zoom: 185%;
-}
-.absolute {
-    position: absolute;
-    right: 0px;
-    bottom: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-.content{
     text-align: center;
-}
-/* .button7{
-    font-family: "コーポレート・ロゴ（ラウンド）";
+  }
+    
+  .absolute {
     position: absolute;
-    top: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
     left: 50%;
-} */
+  }
+  .wrapper {
+    background-color: yellow;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .button7 {
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+  }
